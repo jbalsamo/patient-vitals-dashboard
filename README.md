@@ -1,19 +1,13 @@
-# Patient Vitals Monitoring Dashboard
+# Patient Vitals Dashboard
 
-Teaching demo — synthetic data only. Dark UI dashboard for exploring patient vital signs trends.
+Vite + React + TypeScript + Tailwind patient vitals dashboard.
 
-## Quick start
+## Scripts
 
-```bash
-npm install
-npm run dev
-```
+- `npm ci` — install dependencies
+- `npm test` — run Vitest
+- `npm run build` — production build
 
-## Tests
+## CI
 
-```bash
-npm test
-npm run build
-```
-
-Full docs land with the feature PR.
+GitHub Actions runs `npm ci`, `npm test`, and `npm run build` on pull requests and pushes to `main`.
